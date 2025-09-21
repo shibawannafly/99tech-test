@@ -21,7 +21,11 @@ export default function CurrencyGrid({
 
   return (
     <div style={{ width: 260 }}>
-      <Input value={value} onChange={(e) => setValue(e.target.value)} />
+      <Input
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        placeholder="Search token"
+      />
       <Row gutter={[10, 10]} style={{ marginTop: 16 }}>
         {currencyData.map((item, index) => (
           <Col key={index} span={4}>
