@@ -6,11 +6,8 @@ The project is organized into three subfolders, each dedicated to one problem fr
 ## Structure
 
 ├── three-ways-to-sum-to-n/
-│ └── solution._
 ├── fancy-form/
-│ └── solution._
 ├── messy-react/
-│ └── solution.\*
 └── README.md
 
 ## How to Run
